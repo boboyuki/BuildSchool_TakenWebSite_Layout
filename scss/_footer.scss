@@ -1,0 +1,21 @@
+.footer {
+  background-color: #323232;
+  h6 {
+    color: #d5d5d5;
+  }
+  p {
+    color: #888;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  a {
+    color: #a6a6a6;
+    &:hover {
+      color: #d5d5d5 !important;
+    }
+  }
+  &-end {
+    background-color: #1e1e1e;
+  }
+}

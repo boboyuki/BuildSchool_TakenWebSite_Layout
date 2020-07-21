@@ -1,0 +1,30 @@
+header {
+  background-color: rgba(30, 30, 30, 0.9);
+
+  .nav {
+    &-item {
+      img {
+        width: 18px;
+        height: 18px;
+      }
+      a {
+        color: #d5d5d5;
+      }
+    }
+  }
+  .dropdown {
+    &-menu,
+    input,
+    input:focus {
+      background-color: #000;
+    }
+    
+    &-item {
+      color: #d5d5d5;
+      &:hover {
+        color: #fff;
+        background-color: transparent;
+      }
+    }
+  }
+}
